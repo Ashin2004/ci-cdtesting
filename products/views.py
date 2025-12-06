@@ -45,3 +45,7 @@ def product_detail(request, pk):
     elif request.method == 'DELETE':
         product.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
+
+
+def halo(request):
+    pass
